@@ -1,0 +1,80 @@
+body {
+    background-color: #1a0933;
+    color: #ffffff;
+}
+
+h2,h3,h4 {
+    color: #ff2a75;
+}
+
+h1 {
+    color: #ff2a75;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+
+#menu-principal{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #00f0ff;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #ff2a75;
+}
+
+/*Fonte da página*/
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* box model das edições do jogo*/
+.standard-edition,.ultimate-edition{
+    width: 300px;
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ff2a75;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+#trailer{
+align-items: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer{
+    padding: 20px;
+    background-color: #ff2a75;
+}
+
+.standard-edition,.ultimate-edition{
+    padding: 20px;
+}
+
+#pre-venda{
+    padding: 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
